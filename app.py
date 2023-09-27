@@ -21,8 +21,10 @@ def desencriptar(texto):
 
 
 if __name__ == "__main__":
-    print("Encriptador de texto")
+    print("Encriptador de texto Oullea")
     texto = input("Ingresa el texto a encriptar: ")
+    # arreglos-caracteristicas
     texto_encriptado = encriptar(texto)
     texto_desencriptado = desencriptar(texto_encriptado)
+    # caracteristicas-nuevas
     print(texto_encriptado)
