@@ -1,0 +1,646 @@
+Para comprobar si la expresión 
+�
+�
+(
+�
+−
+1
+)
+=
+−
+�
+−
+�
+(
+1
++
+1
+3
+�
+−
+2
+�
+)
++
+�
+e 
+y
+ (y−1)=−e 
+−x
+ (1+ 
+3
+1
+​
+ e 
+−2x
+ )+C es una solución de la ecuación diferencial 
+�
+�
+�
+�
+′
+=
+�
+−
+�
++
+�
+−
+2
+�
+−
+�
+ye 
+x
+ y 
+′
+ =e 
+−y
+ +e 
+−2x−y
+ , primero derivaremos la expresión con respecto a 
+�
+x y luego verificaremos si la derivada es igual al lado derecho de la ecuación diferencial.
+
+Dada la expresión:
+
+�
+�
+(
+�
+−
+1
+)
+=
+−
+�
+−
+�
+(
+1
++
+1
+3
+�
+−
+2
+�
+)
++
+�
+e 
+y
+ (y−1)=−e 
+−x
+ (1+ 
+3
+1
+​
+ e 
+−2x
+ )+C
+
+Primero, calculemos su derivada con respecto a 
+�
+x:
+
+�
+�
+�
+(
+�
+�
+(
+�
+−
+1
+)
+)
+=
+�
+�
+�
+(
+−
+�
+−
+�
+(
+1
++
+1
+3
+�
+−
+2
+�
+)
++
+�
+)
+dx
+d
+​
+ (e 
+y
+ (y−1))= 
+dx
+d
+​
+ (−e 
+−x
+ (1+ 
+3
+1
+​
+ e 
+−2x
+ )+C)
+
+Usamos la regla del producto en el lado izquierdo y aplicamos la derivada de 
+�
+�
+e 
+y
+  con respecto a 
+�
+x:
+
+�
+�
+(
+�
+−
+1
+)
++
+�
+�
+�
+�
+�
+�
+=
+−
+(
+−
+�
+−
+�
+(
+1
++
+1
+3
+�
+−
+2
+�
+)
+)
+e 
+y
+ (y−1)+e 
+y
+  
+dx
+dy
+​
+ =−(−e 
+−x
+ (1+ 
+3
+1
+​
+ e 
+−2x
+ ))
+
+�
+�
+(
+�
+−
+1
+)
++
+�
+�
+�
+�
+�
+�
+=
+�
+−
+�
+(
+1
++
+1
+3
+�
+−
+2
+�
+)
+e 
+y
+ (y−1)+e 
+y
+  
+dx
+dy
+​
+ =e 
+−x
+ (1+ 
+3
+1
+​
+ e 
+−2x
+ )
+
+Ahora, sustituimos 
+�
+�
+�
+ye 
+x
+  en lugar de 
+�
+�
+�
+�
+dx
+dy
+​
+  en el lado izquierdo, ya que 
+�
+�
+�
+�
+′
+=
+�
+�
+�
+�
+ye 
+x
+ y 
+′
+ = 
+dx
+dy
+​
+ :
+
+�
+�
+(
+�
+−
+1
+)
++
+�
+�
+�
+=
+�
+−
+�
+(
+1
++
+1
+3
+�
+−
+2
+�
+)
+e 
+y
+ (y−1)+ye 
+x
+ =e 
+−x
+ (1+ 
+3
+1
+​
+ e 
+−2x
+ )
+
+Ahora, simplificamos la expresión:
+
+�
+�
+(
+�
+−
+1
+)
++
+�
+�
+�
+=
+�
+−
+�
+(
+3
+�
+−
+2
+�
++
+1
+)
+3
+e 
+y
+ (y−1)+ye 
+x
+ = 
+3
+e 
+−x
+ (3e 
+−2x
+ +1)
+​
+ 
+
+Multiplicamos ambos lados de la ecuación por 
+3
+�
+�
+3e 
+x
+  para despejar el denominador en el lado derecho:
+
+3
+�
+�
+(
+�
+−
+1
+)
+�
+�
++
+3
+�
+�
+2
+�
+=
+�
+−
+�
+(
+3
+�
+−
+2
+�
++
+1
+)
+3e 
+y
+ (y−1)e 
+x
+ +3ye 
+2x
+ =e 
+−x
+ (3e 
+−2x
+ +1)
+
+3
+�
+�
++
+�
+(
+�
+−
+1
+)
++
+3
+�
+�
+2
+�
+=
+�
+−
+�
+(
+3
+�
+−
+2
+�
++
+1
+)
+3e 
+y+x
+ (y−1)+3ye 
+2x
+ =e 
+−x
+ (3e 
+−2x
+ +1)
+
+Ahora, dividimos ambos lados por 
+3
+�
+�
++
+�
+3e 
+y+x
+  para aislar 
+�
+y:
+
+(
+�
+−
+1
+)
++
+�
+�
+−
+�
+=
+1
+3
+(
+3
+�
+−
+2
+�
++
+1
+)
+(y−1)+ye 
+−x
+ = 
+3
+1
+​
+ (3e 
+−2x
+ +1)
+
+(
+�
+−
+1
+)
++
+�
+�
+−
+�
+=
+�
+−
+2
+�
++
+1
+3
+(y−1)+ye 
+−x
+ =e 
+−2x
+ + 
+3
+1
+​
+ 
+
+�
+−
+1
++
+�
+�
+−
+�
+=
+�
+−
+2
+�
++
+1
+3
+y−1+ye 
+−x
+ =e 
+−2x
+ + 
+3
+1
+​
+ 
+
+Finalmente, sumamos 1 a ambos lados de la ecuación:
+
+�
++
+�
+�
+−
+�
+=
+�
+−
+2
+�
++
+4
+3
+y+ye 
+−x
+ =e 
+−2x
+ + 
+3
+4
+​
+ 
+
+Ahora, podemos ver que esta ecuación es equivalente a la ecuación diferencial dada:
+
+�
+�
+�
+�
+′
+=
+�
+−
+�
++
+�
+−
+2
+�
+−
+�
+ye 
+x
+ y 
+′
+ =e 
+−y
+ +e 
+−2x−y
+ 
+
+�
+(
+1
++
+�
+−
+�
+)
+=
+�
+−
+2
+�
++
+4
+3
+y(1+e 
+−x
+ )=e 
+−2x
+ + 
+3
+4
+​
+ 
+
+Por lo tanto, hemos comprobado que la expresión dada es una solución válida de la ecuación diferencial.
