@@ -10,9 +10,19 @@ def encriptar(texto):
             texto_encriptado += chr(ord(letra) + 3)
     return texto_encriptado
 
+def desencriptar(texto):
+    texto_desencriptado = ""
+    for letra in texto:
+        if letra == " ":
+            texto_desencriptado += " "
+        else:
+            texto_desencriptado += chr(ord(letra) - 3)
+    return texto_desencriptado
+
 
 if __name__ == "__main__":
     print("Encriptador de texto")
     texto = input("Ingresa el texto a encriptar: ")
     texto_encriptado = encriptar(texto)
+    texto_desencriptado = desencriptar(texto_encriptado)
     print(texto_encriptado)
