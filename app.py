@@ -12,6 +12,7 @@ def encriptar(texto):
 
 
 if __name__ == "__main__":
+    print("Encriptador de texto")
     texto = input("Ingresa el texto a encriptar: ")
     texto_encriptado = encriptar(texto)
     print(texto_encriptado)
