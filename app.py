@@ -1,7 +1,7 @@
 #este programa encripta un texto por desplazamiento
 # -*- coding: utf-8 -*-
 
-def encriptar(texto):
+def encriptador(texto):
     texto_encriptado = ""
     for letra in texto:
         if letra == " ":
@@ -12,7 +12,7 @@ def encriptar(texto):
 
 
 if __name__ == "__main__":
-    print("Encriptador de texto")
+    print("Encriptador de texto Oullea")
     texto = input("Ingresa el texto a encriptar: ")
-    texto_encriptado = encriptar(texto)
+    texto_encriptado = encriptador(texto)
     print(texto_encriptado)
